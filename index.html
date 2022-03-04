@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>To Do List</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 id="clock">00:00:00</h1>
     <form id="login-form">
-        <input type="text" placeholder="Write Your Name" id="login-input" maxlength="15" required />
-        <input type="submit" value="Log In" />
+      <input
+        type="text"
+        placeholder="Write Your Name"
+        id="login-input"
+        maxlength="15"
+        required
+      />
+      <input type="submit" value="Log In" />
     </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <script src="main.js"></script>
-</body>
+    <h2 id="greeting" class="hidden"></h2>
+    <div>
+      <span id="quote"></span>
+      <span id="author"></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+  </body>
 </html>
