@@ -6,8 +6,8 @@ function selectImg() {}
 
 const bgImg = document.createElement("img");
 
-bgImg.src = `img/${randomImg}`;
+// bgImg.src = `img/${randomImg}`;
 
-console.log(bgImg);
+// document.body.appendChild(bgImg);
 
-document.body.appendChild(bgImg);
+document.body.style.background = `url(img/${randomImg}) `;
