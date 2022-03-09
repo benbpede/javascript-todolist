@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid white;
+}
+
 .hidden {
-    display: none;
+  display: none;
+}
+
+.dark {
+  background-color: black;
 }
